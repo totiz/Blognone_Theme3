@@ -9,7 +9,8 @@ else
 	- rounding the corners
 	- insert the content,image from [entries] to each row
 	
-*note
+[note]
+
 tmpCell = cell that's initial cell when creating cell
 cellNib = to be the Nib point to cell that want to create with
 myTableView = main TableView
