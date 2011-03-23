@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "secondView.h"
 
 @interface Blognone12_NewThemeAppDelegate : NSObject <UIApplicationDelegate> {
-
+    secondView *mySecondView;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) secondView *mySecondView;
 
 @end

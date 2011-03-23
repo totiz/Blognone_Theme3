@@ -12,11 +12,24 @@
 
 
 @synthesize window=_window;
+@synthesize mySecondView;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
     [self.window makeKeyAndVisible];
+    
+    // Create secondview
+    mySecondView = [secondView new];
+    mySecondView.title = @"BlogNone";
+    UINavigationController *navCon = [UINavigationController new];
+    navCon.navigationBar.tintColor = [UIColor redColor];
+    [navCon pushViewController:mySecondView animated:NO];
+    
+    
+    [self.window addSubview:navCon.view];
+    return YES;
+    
     return YES;
 }
 

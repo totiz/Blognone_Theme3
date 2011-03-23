@@ -1,0 +1,20 @@
+[SecondView.m]
+
+- [entries] is the property that contain Titles, Details, Images for each row
+
+if indexPath.row %2 == 0
+	the row will be the trnasparent gap
+else
+	- creating the new cell
+	- rounding the corners
+	- insert the content,image from [entries] to each row
+	
+*note
+tmpCell = cell that's initial cell when creating cell
+cellNib = to be the Nib point to cell that want to create with
+myTableView = main TableView
+mainView = backgroundView
+mainImage = Icon image for each row
+mainTitleText = title for each row
+mainDetailText = detail for each row
+entries = all content in rows
