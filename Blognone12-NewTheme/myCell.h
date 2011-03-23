@@ -10,7 +10,20 @@
 
 
 @interface myCell : UITableViewCell {
+    UIView *myBackGroundView;
+    UILabel *titleView;
+    UIImageView *iconImage;
+    UITextView *detailView;
     
+    UIColor *DefaultBackgroundColor;
 }
+
+@property (nonatomic, retain) IBOutlet UIView *myBackGroundView;
+@property (nonatomic, retain) IBOutlet UILabel *titleView;
+@property (nonatomic, retain) IBOutlet UIImageView *iconImage;
+@property (nonatomic, retain) IBOutlet UITextView *detailView;
+@property (nonatomic, retain) UIColor *DefaultBackgroundColor;
+
+
 
 @end

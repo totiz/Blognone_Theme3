@@ -15,10 +15,6 @@
     // referring to our xib-based UITableViewCell ('IndividualSubviewsBasedApplicationCell')
 	UINib *cellNib;
     UITableView *mytTableView;
-    UIView *mainView;
-    UIImageView *mainImage;
-    UILabel *mainTitleText;
-    UITextView *mainDetailText;
     
     NSMutableArray *entries;
 }
@@ -26,10 +22,6 @@
 @property (nonatomic, retain) IBOutlet myCell *tmpCell;
 @property (nonatomic, retain) UINib *cellNib;
 @property (nonatomic, retain) IBOutlet UITableView *mytTableView;
-@property (nonatomic, retain) IBOutlet UIView *mainView;
-@property (nonatomic, retain) IBOutlet UIImageView *mainImage;
-@property (nonatomic, retain) IBOutlet UILabel *mainTitleText;
-@property (nonatomic, retain) IBOutlet UITextView *mainDetailText;
 
 @property (nonatomic, retain) NSMutableArray *entries;
 

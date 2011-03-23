@@ -14,10 +14,6 @@
 @synthesize tmpCell;
 @synthesize cellNib;
 @synthesize mytTableView;
-@synthesize mainView;
-@synthesize mainImage;
-@synthesize mainTitleText;
-@synthesize mainDetailText;
 
 @synthesize entries;
 
@@ -33,10 +29,6 @@
 - (void)dealloc
 {
     [mytTableView release];
-    [mainView release];
-    [mainImage release];
-    [mainTitleText release];
-    [mainDetailText release];
     [super dealloc];
 }
 
@@ -105,10 +97,6 @@
 - (void)viewDidUnload
 {
     [self setMytTableView:nil];
-    [self setMainView:nil];
-    [self setMainImage:nil];
-    [self setMainTitleText:nil];
-    [self setMainDetailText:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -153,17 +141,20 @@
         [self.cellNib instantiateWithOwner:self options:nil];
         cell = tmpCell;
         self.tmpCell = nil;
+        myCell *tmpMyCell = (myCell *)cell;
         
         // Rounding corner
-        mainView.layer.cornerRadius = 10;
-        mainImage.layer.cornerRadius = 10;
+        tmpMyCell.myBackGroundView.layer.cornerRadius = 10;
+        tmpMyCell.iconImage.layer.cornerRadius = 10;
         
         // Edit Content
+
+        
         NSInteger indexOfContent = (indexPath.row - 1) / 2;
         
-        mainTitleText.text = [[entries objectAtIndex:indexOfContent] objectForKey:@"title"];
-        mainDetailText.text = [[entries objectAtIndex:indexOfContent] objectForKey:@"detail"];
-        mainImage.image = [UIImage imageNamed:[[entries objectAtIndex:indexOfContent] objectForKey:@"image"]];
+        tmpMyCell.titleView.text = [[entries objectAtIndex:indexOfContent] objectForKey:@"title"];
+        tmpMyCell.detailView.text = [[entries objectAtIndex:indexOfContent] objectForKey:@"detail"];
+        tmpMyCell.iconImage.image = [UIImage imageNamed:[[entries objectAtIndex:indexOfContent] objectForKey:@"image"]];
 
     }
     

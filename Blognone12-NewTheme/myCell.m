@@ -10,6 +10,11 @@
 
 
 @implementation myCell
+@synthesize myBackGroundView;
+@synthesize titleView;
+@synthesize iconImage;
+@synthesize detailView;
+@synthesize DefaultBackgroundColor;
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
@@ -22,9 +27,28 @@
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated
 {
-    [super setSelected:selected animated:animated];
+    //[super setSelected:selected animated:animated];
 
     // Configure the view for the selected state
+    if (selected == YES) {
+        NSLog(@"have been selected");
+        
+        // Change background color with Animation
+        [UIView beginAnimations:NULL context:nil];
+        [UIView setAnimationDuration:0.2];
+        self.myBackGroundView.backgroundColor = [UIColor colorWithRed:38.0f/255.0f green:239.0f/255.0f blue:239.0f/255.0f alpha:1.0f];
+        [UIView commitAnimations];
+        
+        
+    } else {
+        NSLog(@"release selecte");
+        
+        // Change background color with Animation
+        [UIView beginAnimations:NULL context:nil];
+        [UIView setAnimationDuration:0.2];
+        self.myBackGroundView.backgroundColor = [UIColor colorWithRed:239.0f/255.0f green:239.0f/255.0f blue:239.0f/255.0f alpha:1.0f];
+        [UIView commitAnimations];
+    }
 }
 
 - (void)dealloc
