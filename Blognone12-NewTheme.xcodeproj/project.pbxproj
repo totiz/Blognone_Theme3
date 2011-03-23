@@ -1,0 +1,268 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B3854C41339FCE6009E9C12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B3854C31339FCE6009E9C12 /* UIKit.framework */; };
+		3B3854C61339FCE6009E9C12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B3854C51339FCE6009E9C12 /* Foundation.framework */; };
+		3B3854C81339FCE6009E9C12 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B3854C71339FCE6009E9C12 /* CoreGraphics.framework */; };
+		3B3854CE1339FCE6009E9C12 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B3854CC1339FCE6009E9C12 /* InfoPlist.strings */; };
+		3B3854D11339FCE6009E9C12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3854D01339FCE6009E9C12 /* main.m */; };
+		3B3854D41339FCE6009E9C12 /* Blognone12_NewThemeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3854D31339FCE6009E9C12 /* Blognone12_NewThemeAppDelegate.m */; };
+		3B3854D71339FCE6009E9C12 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B3854D51339FCE6009E9C12 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B3854BF1339FCE6009E9C12 /* Blognone12-NewTheme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blognone12-NewTheme.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B3854C31339FCE6009E9C12 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3B3854C51339FCE6009E9C12 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3B3854C71339FCE6009E9C12 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3B3854CB1339FCE6009E9C12 /* Blognone12-NewTheme-Info.plist */ = {isa = PBXFileReference; path = "Blognone12-NewTheme-Info.plist"; sourceTree = "<group>"; };
+		3B3854CD1339FCE6009E9C12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3B3854CF1339FCE6009E9C12 /* Blognone12-NewTheme-Prefix.pch */ = {isa = PBXFileReference; path = "Blognone12-NewTheme-Prefix.pch"; sourceTree = "<group>"; };
+		3B3854D01339FCE6009E9C12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B3854D21339FCE6009E9C12 /* Blognone12_NewThemeAppDelegate.h */ = {isa = PBXFileReference; path = Blognone12_NewThemeAppDelegate.h; sourceTree = "<group>"; };
+		3B3854D31339FCE6009E9C12 /* Blognone12_NewThemeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Blognone12_NewThemeAppDelegate.m; sourceTree = "<group>"; };
+		3B3854D61339FCE6009E9C12 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B3854BC1339FCE6009E9C12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B3854C41339FCE6009E9C12 /* UIKit.framework in Frameworks */,
+				3B3854C61339FCE6009E9C12 /* Foundation.framework in Frameworks */,
+				3B3854C81339FCE6009E9C12 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B3854B41339FCE5009E9C12 = {
+			isa = PBXGroup;
+			children = (
+				3B3854C91339FCE6009E9C12 /* Blognone12-NewTheme */,
+				3B3854C21339FCE6009E9C12 /* Frameworks */,
+				3B3854C01339FCE6009E9C12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B3854C01339FCE6009E9C12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B3854BF1339FCE6009E9C12 /* Blognone12-NewTheme.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B3854C21339FCE6009E9C12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B3854C31339FCE6009E9C12 /* UIKit.framework */,
+				3B3854C51339FCE6009E9C12 /* Foundation.framework */,
+				3B3854C71339FCE6009E9C12 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B3854C91339FCE6009E9C12 /* Blognone12-NewTheme */ = {
+			isa = PBXGroup;
+			children = (
+				3B3854D21339FCE6009E9C12 /* Blognone12_NewThemeAppDelegate.h */,
+				3B3854D31339FCE6009E9C12 /* Blognone12_NewThemeAppDelegate.m */,
+				3B3854D51339FCE6009E9C12 /* MainWindow.xib */,
+				3B3854CA1339FCE6009E9C12 /* Supporting Files */,
+			);
+			path = "Blognone12-NewTheme";
+			sourceTree = "<group>";
+		};
+		3B3854CA1339FCE6009E9C12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B3854CB1339FCE6009E9C12 /* Blognone12-NewTheme-Info.plist */,
+				3B3854CC1339FCE6009E9C12 /* InfoPlist.strings */,
+				3B3854CF1339FCE6009E9C12 /* Blognone12-NewTheme-Prefix.pch */,
+				3B3854D01339FCE6009E9C12 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B3854BE1339FCE6009E9C12 /* Blognone12-NewTheme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B3854DA1339FCE6009E9C12 /* Build configuration list for PBXNativeTarget "Blognone12-NewTheme" */;
+			buildPhases = (
+				3B3854BB1339FCE6009E9C12 /* Sources */,
+				3B3854BC1339FCE6009E9C12 /* Frameworks */,
+				3B3854BD1339FCE6009E9C12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Blognone12-NewTheme";
+			productName = "Blognone12-NewTheme";
+			productReference = 3B3854BF1339FCE6009E9C12 /* Blognone12-NewTheme.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B3854B61339FCE5009E9C12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "iphone developer";
+			};
+			buildConfigurationList = 3B3854B91339FCE5009E9C12 /* Build configuration list for PBXProject "Blognone12-NewTheme" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3B3854B41339FCE5009E9C12;
+			productRefGroup = 3B3854C01339FCE6009E9C12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B3854BE1339FCE6009E9C12 /* Blognone12-NewTheme */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B3854BD1339FCE6009E9C12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B3854CE1339FCE6009E9C12 /* InfoPlist.strings in Resources */,
+				3B3854D71339FCE6009E9C12 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B3854BB1339FCE6009E9C12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B3854D11339FCE6009E9C12 /* main.m in Sources */,
+				3B3854D41339FCE6009E9C12 /* Blognone12_NewThemeAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3B3854CC1339FCE6009E9C12 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B3854CD1339FCE6009E9C12 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3B3854D51339FCE6009E9C12 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B3854D61339FCE6009E9C12 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B3854D81339FCE6009E9C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3B3854D91339FCE6009E9C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		3B3854DB1339FCE6009E9C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Blognone12-NewTheme/Blognone12-NewTheme-Prefix.pch";
+				INFOPLIST_FILE = "Blognone12-NewTheme/Blognone12-NewTheme-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3B3854DC1339FCE6009E9C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Blognone12-NewTheme/Blognone12-NewTheme-Prefix.pch";
+				INFOPLIST_FILE = "Blognone12-NewTheme/Blognone12-NewTheme-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B3854B91339FCE5009E9C12 /* Build configuration list for PBXProject "Blognone12-NewTheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B3854D81339FCE6009E9C12 /* Debug */,
+				3B3854D91339FCE6009E9C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B3854DA1339FCE6009E9C12 /* Build configuration list for PBXNativeTarget "Blognone12-NewTheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B3854DB1339FCE6009E9C12 /* Debug */,
+				3B3854DC1339FCE6009E9C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B3854B61339FCE5009E9C12 /* Project object */;
+}
