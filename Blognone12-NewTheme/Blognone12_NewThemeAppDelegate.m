@@ -29,8 +29,6 @@
     
     [self.window addSubview:navCon.view];
     return YES;
-    
-    return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

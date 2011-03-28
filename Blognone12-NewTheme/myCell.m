@@ -51,6 +51,11 @@
     }
 }
 
+- (void)setHighlighted:(BOOL)highlighted animated:(BOOL)animated
+{
+    
+}
+
 - (void)dealloc
 {
     [super dealloc];
