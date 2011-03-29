@@ -25,6 +25,8 @@
 		3B3854F4133A0979009E9C12 /* Eric Schmidt.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B3854F3133A0979009E9C12 /* Eric Schmidt.png */; };
 		3B3854F6133A0B9B009E9C12 /* Digg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B3854F5133A0B9A009E9C12 /* Digg.png */; };
 		3B3854F8133A0C05009E9C12 /* iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B3854F7133A0C05009E9C12 /* iPad.png */; };
+		3B530AAD13407FE400C98438 /* DetailNews.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B530AAB13407FE300C98438 /* DetailNews.m */; };
+		3B530AAE13407FE400C98438 /* DetailNews.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B530AAC13407FE400C98438 /* DetailNews.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,9 @@
 		3B3854F3133A0979009E9C12 /* Eric Schmidt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Eric Schmidt.png"; sourceTree = "<group>"; };
 		3B3854F5133A0B9A009E9C12 /* Digg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Digg.png; sourceTree = "<group>"; };
 		3B3854F7133A0C05009E9C12 /* iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPad.png; sourceTree = "<group>"; };
+		3B530AAA13407FE300C98438 /* DetailNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailNews.h; sourceTree = "<group>"; };
+		3B530AAB13407FE300C98438 /* DetailNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailNews.m; sourceTree = "<group>"; };
+		3B530AAC13407FE400C98438 /* DetailNews.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailNews.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,9 @@
 				3B3854DE1339FCFC009E9C12 /* secondView.m */,
 				3B3854DF1339FCFC009E9C12 /* myCell.h */,
 				3B3854E01339FCFC009E9C12 /* myCell.m */,
+				3B530AAA13407FE300C98438 /* DetailNews.h */,
+				3B530AAB13407FE300C98438 /* DetailNews.m */,
+				3B530AAC13407FE400C98438 /* DetailNews.xib */,
 				3B3854CA1339FCE6009E9C12 /* Supporting Files */,
 			);
 			path = "Blognone12-NewTheme";
@@ -207,6 +215,7 @@
 				3B3854F4133A0979009E9C12 /* Eric Schmidt.png in Resources */,
 				3B3854F6133A0B9B009E9C12 /* Digg.png in Resources */,
 				3B3854F8133A0C05009E9C12 /* iPad.png in Resources */,
+				3B530AAE13407FE400C98438 /* DetailNews.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +230,7 @@
 				3B3854D41339FCE6009E9C12 /* Blognone12_NewThemeAppDelegate.m in Sources */,
 				3B3854E11339FCFC009E9C12 /* secondView.m in Sources */,
 				3B3854E21339FCFC009E9C12 /* myCell.m in Sources */,
+				3B530AAD13407FE400C98438 /* DetailNews.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +335,7 @@
 				3B3854DC1339FCE6009E9C12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

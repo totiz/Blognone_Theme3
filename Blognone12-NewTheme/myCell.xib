@@ -129,7 +129,6 @@
 										<string key="NSFrame">{{294, 41}, {13, 28}}</string>
 										<reference key="NSSuperview" ref="212505746"/>
 										<reference key="NSWindow"/>
-										<reference key="NSNextKeyView"/>
 										<bool key="IBUIUserInteractionEnabled">NO</bool>
 										<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 										<object class="NSCustomResource" key="IBUIImage">
@@ -175,6 +174,7 @@
 				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 				<int key="IBUISeparatorStyle">1</int>
 				<reference key="IBUIContentView" ref="312997687"/>
+				<string key="IBUIReuseIdentifier">myCell</string>
 			</object>
 		</object>
 		<object class="IBObjectContainer" key="IBDocument.Objects">
@@ -269,6 +269,11 @@
 						<reference key="parent" ref="212505746"/>
 					</object>
 					<object class="IBObjectRecord">
+						<int key="objectID">13</int>
+						<reference key="object" ref="604655904"/>
+						<reference key="parent" ref="212505746"/>
+					</object>
+					<object class="IBObjectRecord">
 						<int key="objectID">10</int>
 						<reference key="object" ref="163871280"/>
 						<reference key="parent" ref="212505746"/>
@@ -276,11 +281,6 @@
 					<object class="IBObjectRecord">
 						<int key="objectID">8</int>
 						<reference key="object" ref="511389596"/>
-						<reference key="parent" ref="212505746"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">13</int>
-						<reference key="object" ref="604655904"/>
 						<reference key="parent" ref="212505746"/>
 					</object>
 				</object>

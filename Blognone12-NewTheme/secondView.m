@@ -8,6 +8,7 @@
 
 #import "secondView.h"
 #import <QuartzCore/QuartzCore.h>
+#import "DetailNews.h"
 
 @implementation secondView
 
@@ -92,6 +93,35 @@
                                        @"iPad.png", nil]
                forKeys:[NSArray arrayWithObjects:@"title", @"detail", @"image", nil]];
     [entries addObject:tmpData];
+    
+    [entries addObject:[entries objectAtIndex:0]];
+    [entries addObject:[entries objectAtIndex:1]];
+    [entries addObject:[entries objectAtIndex:2]];
+    [entries addObject:[entries objectAtIndex:3]];
+    [entries addObject:[entries objectAtIndex:4]];
+    
+    
+//    cellArray = [NSMutableArray new];
+//    
+//    NSInteger indexOfContent;
+//    for ( indexOfContent = 0; indexOfContent < [entries count]; indexOfContent++)
+//    {
+//        // Create Custom Cell
+//        [self.cellNib instantiateWithOwner:self options:nil];
+//        UITableViewCell *cell = tmpCell;
+//        self.tmpCell = nil;
+//        
+//        myCell *tmpMyCell = (myCell *)cell;
+//        // Rounding corner
+//        //tmpMyCell.myBackGroundView.layer.cornerRadius = 10;
+//        tmpMyCell.iconImage.layer.cornerRadius = 10;
+//        
+//        tmpMyCell.titleView.text = [[entries objectAtIndex:indexOfContent] objectForKey:@"title"];
+//        tmpMyCell.detailView.text = [[entries objectAtIndex:indexOfContent] objectForKey:@"detail"];
+//        tmpMyCell.iconImage.image = [UIImage imageNamed:[[entries objectAtIndex:indexOfContent] objectForKey:@"image"]];
+//        
+//        [cellArray addObject:cell];
+//    }
 }
 
 - (void)viewDidUnload
@@ -121,31 +151,43 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell";
+    static NSString *WhiteCellIdentifier = @"WhiteCellIdentifier";
+    static NSString *CellIdentifier = @"myCell";
     
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
-    }
+    UITableViewCell *cell;
     
     if (indexPath.row %2 == 0) {
-        
-        // Configure Gap between cell
-        UIView *backView = [[[UIView alloc] initWithFrame:CGRectZero] autorelease];
-        backView.backgroundColor = [UIColor clearColor];
-        cell.backgroundView = backView;
-        cell.textLabel.text = @"";
+        cell = [tableView dequeueReusableCellWithIdentifier:WhiteCellIdentifier];
+        if (cell == nil) {
+            cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:WhiteCellIdentifier] autorelease];
+            // Configure Gap between cell
+            UIView *backView = [[[UIView alloc] initWithFrame:CGRectZero] autorelease];
+            backView.backgroundColor = [UIColor clearColor];
+            cell.backgroundView = backView;
+            cell.textLabel.text = @"";
+            NSLog(@"create new whitspaceCell");
+        } else {
+            
+        }
         
     } else {
-        // Create Custom Cell
-        [self.cellNib instantiateWithOwner:self options:nil];
-        cell = tmpCell;
-        self.tmpCell = nil;
+        cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+        if (cell == nil) {
+            // Create Custom Cell
+            [self.cellNib instantiateWithOwner:self options:nil];
+            cell = tmpCell;
+            self.tmpCell = nil;
+            
+            myCell *tmpMyCell = (myCell *)cell;
+            // Rounding corner
+            //tmpMyCell.myBackGroundView.layer.cornerRadius = 10;
+            tmpMyCell.iconImage.layer.cornerRadius = 10;
+            
+            NSLog(@"create new custom cell");
+        }
         myCell *tmpMyCell = (myCell *)cell;
         
-        // Rounding corner
-        tmpMyCell.myBackGroundView.layer.cornerRadius = 10;
-        tmpMyCell.iconImage.layer.cornerRadius = 10;
+        
         
         // Edit Content
 
@@ -156,12 +198,19 @@
         tmpMyCell.detailView.text = [[entries objectAtIndex:indexOfContent] objectForKey:@"detail"];
         tmpMyCell.iconImage.image = [UIImage imageNamed:[[entries objectAtIndex:indexOfContent] objectForKey:@"image"]];
 
+        
     }
     
     
     // Configure the cell...
     
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    DetailNews *myDetailNews = [DetailNews new];
+    [self.navigationController pushViewController:myDetailNews animated:YES];
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath

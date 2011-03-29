@@ -17,6 +17,8 @@
     UITableView *mytTableView;
     
     NSMutableArray *entries;
+    
+    NSMutableArray *cellArray;
 }
 
 @property (nonatomic, retain) IBOutlet myCell *tmpCell;

@@ -14,7 +14,6 @@
 @synthesize titleView;
 @synthesize iconImage;
 @synthesize detailView;
-@synthesize DefaultBackgroundColor;
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
@@ -41,7 +40,7 @@
         
         
     } else {
-        NSLog(@"release selecte");
+        //NSLog(@"release selecte");
         
         // Change background color with Animation
         [UIView beginAnimations:NULL context:nil];
@@ -53,12 +52,16 @@
 
 - (void)setHighlighted:(BOOL)highlighted animated:(BOOL)animated
 {
-    
+    // Non Hightlight the cell when starting press the finger
 }
 
 - (void)dealloc
 {
     [super dealloc];
+    [myBackGroundView release];
+    [titleView release];
+    [iconImage release];
+    [detailView release];
 }
 
 @end
