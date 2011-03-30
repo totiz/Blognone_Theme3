@@ -94,11 +94,13 @@
                forKeys:[NSArray arrayWithObjects:@"title", @"detail", @"image", nil]];
     [entries addObject:tmpData];
     
-    [entries addObject:[entries objectAtIndex:0]];
-    [entries addObject:[entries objectAtIndex:1]];
-    [entries addObject:[entries objectAtIndex:2]];
-    [entries addObject:[entries objectAtIndex:3]];
-    [entries addObject:[entries objectAtIndex:4]];
+    // Row 5
+    tmpData = [NSDictionary
+               dictionaryWithObjects: [NSArray arrayWithObjects:@"มินิรีวิว: Nexus S รุ่นจอ Super-LCD ที่ขายอย่าง",
+                                       @"เชื่อว่าผู้อ่าน Blognone คงอ่านข่าว เอไอเอสจับมือซัมซุงเปิดตัว Nexus S เคาะราคาที่ 18,900 บาท กันหมดแล้ว จริงๆ",
+                                       @"Nexus S.jpeg", nil]
+               forKeys:[NSArray arrayWithObjects:@"title", @"detail", @"image", nil]];
+    [entries addObject:tmpData];
     
     
 //    cellArray = [NSMutableArray new];
@@ -177,11 +179,12 @@
             [self.cellNib instantiateWithOwner:self options:nil];
             cell = tmpCell;
             self.tmpCell = nil;
+            //cell = [[[myFastCell alloc] initWithFrame:CGRectZero reuseIdentifier:CellIdentifier] autorelease];
             
             myCell *tmpMyCell = (myCell *)cell;
             // Rounding corner
             //tmpMyCell.myBackGroundView.layer.cornerRadius = 10;
-            tmpMyCell.iconImage.layer.cornerRadius = 10;
+            //tmpMyCell.iconImage.layer.cornerRadius = 10;
             
             NSLog(@"create new custom cell");
         }
@@ -194,16 +197,20 @@
         
         NSInteger indexOfContent = (indexPath.row - 1) / 2;
         
+//        tmpMyCell.textTitle = [[entries objectAtIndex:indexOfContent] objectForKey:@"title"];
+//        tmpMyCell.detailText = [[entries objectAtIndex:indexOfContent] objectForKey:@"detail"];
+//        tmpMyCell.imageName = [[entries objectAtIndex:indexOfContent] objectForKey:@"image"];
+
         tmpMyCell.titleView.text = [[entries objectAtIndex:indexOfContent] objectForKey:@"title"];
         tmpMyCell.detailView.text = [[entries objectAtIndex:indexOfContent] objectForKey:@"detail"];
         tmpMyCell.iconImage.image = [UIImage imageNamed:[[entries objectAtIndex:indexOfContent] objectForKey:@"image"]];
+        NSLog(@"cell %@", [[entries objectAtIndex:indexOfContent] objectForKey:@"title"]) ;
 
         
     }
     
     
     // Configure the cell...
-    
     return cell;
 }
 

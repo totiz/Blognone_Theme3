@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "myCell.h"
+#import "myFastCell.h"
 
 @interface secondView : UIViewController {
     myCell *tmpCell;

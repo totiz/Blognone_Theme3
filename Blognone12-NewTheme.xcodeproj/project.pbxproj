@@ -27,6 +27,10 @@
 		3B3854F8133A0C05009E9C12 /* iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B3854F7133A0C05009E9C12 /* iPad.png */; };
 		3B530AAD13407FE400C98438 /* DetailNews.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B530AAB13407FE300C98438 /* DetailNews.m */; };
 		3B530AAE13407FE400C98438 /* DetailNews.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B530AAC13407FE400C98438 /* DetailNews.xib */; };
+		3B5D48381341CCFA00DDA1DA /* Flash2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B5D48371341CCFA00DDA1DA /* Flash2.jpg */; };
+		3B5D48B6134225CA00DDA1DA /* Nexus S.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3B5D48B5134225CA00DDA1DA /* Nexus S.jpeg */; };
+		3BC3609A1341C9320025FE46 /* myFastCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC360991341C9320025FE46 /* myFastCell.m */; };
+		3BC3609E1341C94E0025FE46 /* ABTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC3609D1341C94E0025FE46 /* ABTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +61,12 @@
 		3B530AAA13407FE300C98438 /* DetailNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailNews.h; sourceTree = "<group>"; };
 		3B530AAB13407FE300C98438 /* DetailNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailNews.m; sourceTree = "<group>"; };
 		3B530AAC13407FE400C98438 /* DetailNews.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailNews.xib; sourceTree = "<group>"; };
+		3B5D48371341CCFA00DDA1DA /* Flash2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Flash2.jpg; sourceTree = "<group>"; };
+		3B5D48B5134225CA00DDA1DA /* Nexus S.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nexus S.jpeg"; sourceTree = "<group>"; };
+		3BC360981341C9320025FE46 /* myFastCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myFastCell.h; sourceTree = "<group>"; };
+		3BC360991341C9320025FE46 /* myFastCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myFastCell.m; sourceTree = "<group>"; };
+		3BC3609C1341C94E0025FE46 /* ABTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTableViewCell.h; sourceTree = "<group>"; };
+		3BC3609D1341C94E0025FE46 /* ABTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +120,8 @@
 				3B3854DE1339FCFC009E9C12 /* secondView.m */,
 				3B3854DF1339FCFC009E9C12 /* myCell.h */,
 				3B3854E01339FCFC009E9C12 /* myCell.m */,
+				3BC360981341C9320025FE46 /* myFastCell.h */,
+				3BC360991341C9320025FE46 /* myFastCell.m */,
 				3B530AAA13407FE300C98438 /* DetailNews.h */,
 				3B530AAB13407FE300C98438 /* DetailNews.m */,
 				3B530AAC13407FE400C98438 /* DetailNews.xib */,
@@ -121,6 +133,8 @@
 		3B3854CA1339FCE6009E9C12 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3BC3609C1341C94E0025FE46 /* ABTableViewCell.h */,
+				3BC3609D1341C94E0025FE46 /* ABTableViewCell.m */,
 				3B3854EB1339FD5F009E9C12 /* Icon */,
 				3B3854EE1339FD9B009E9C12 /* Images */,
 				3B3854E31339FD43009E9C12 /* secondView.xib */,
@@ -136,7 +150,9 @@
 		3B3854EB1339FD5F009E9C12 /* Icon */ = {
 			isa = PBXGroup;
 			children = (
+				3B5D48B5134225CA00DDA1DA /* Nexus S.jpeg */,
 				3B3854E91339FD59009E9C12 /* Flash.png */,
+				3B5D48371341CCFA00DDA1DA /* Flash2.jpg */,
 				3B3854F1133A0952009E9C12 /* Angry Birds.jpeg */,
 				3B3854F3133A0979009E9C12 /* Eric Schmidt.png */,
 				3B3854F5133A0B9A009E9C12 /* Digg.png */,
@@ -216,6 +232,8 @@
 				3B3854F6133A0B9B009E9C12 /* Digg.png in Resources */,
 				3B3854F8133A0C05009E9C12 /* iPad.png in Resources */,
 				3B530AAE13407FE400C98438 /* DetailNews.xib in Resources */,
+				3B5D48381341CCFA00DDA1DA /* Flash2.jpg in Resources */,
+				3B5D48B6134225CA00DDA1DA /* Nexus S.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +249,8 @@
 				3B3854E11339FCFC009E9C12 /* secondView.m in Sources */,
 				3B3854E21339FCFC009E9C12 /* myCell.m in Sources */,
 				3B530AAD13407FE400C98438 /* DetailNews.m in Sources */,
+				3BC3609A1341C9320025FE46 /* myFastCell.m in Sources */,
+				3BC3609E1341C94E0025FE46 /* ABTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

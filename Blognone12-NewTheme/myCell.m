@@ -53,6 +53,8 @@
 - (void)setHighlighted:(BOOL)highlighted animated:(BOOL)animated
 {
     // Non Hightlight the cell when starting press the finger
+    
+    
 }
 
 - (void)dealloc
