@@ -41,7 +41,14 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    [myWebView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://totiz.info/totiz/2/blognone2.html"]]];
+    //[myWebView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://totiz.info/totiz/2/blognone2.html"]]];
+    [myWebView loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"blognone4" ofType:@"html"]isDirectory:NO]]];
+    
+    NSLog(@"%@", [[NSBundle mainBundle] pathForResource:@"blognone4" ofType:@"html"]);
+    NSLog(@"%@", [[NSBundle mainBundle] bundlePath]);
+    
+    //navCon.navigationBar.tintColor = [UIColor redColor];
+    self.navigationController.navigationBar.tintColor = [UIColor colorWithRed:54.0f/255.0f green:92.0f/255.0f blue:138.0f/255.0f alpha:1.0f];;
 }
 
 - (void)viewDidUnload

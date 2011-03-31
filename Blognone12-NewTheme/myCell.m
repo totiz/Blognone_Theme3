@@ -33,27 +33,32 @@
         NSLog(@"have been selected");
         
         // Change background color with Animation
-        [UIView beginAnimations:NULL context:nil];
-        [UIView setAnimationDuration:0.2];
+        //[UIView beginAnimations:NULL context:nil];
+        //[UIView setAnimationDuration:0.2];
         self.myBackGroundView.backgroundColor = [UIColor colorWithRed:38.0f/255.0f green:239.0f/255.0f blue:239.0f/255.0f alpha:1.0f];
-        [UIView commitAnimations];
+        //[UIView commitAnimations];
         
         
     } else {
         //NSLog(@"release selecte");
         
         // Change background color with Animation
-        [UIView beginAnimations:NULL context:nil];
-        [UIView setAnimationDuration:0.2];
+        //[UIView beginAnimations:NULL context:nil];
+        //[UIView setAnimationDuration:0.2];
         self.myBackGroundView.backgroundColor = [UIColor colorWithRed:239.0f/255.0f green:239.0f/255.0f blue:239.0f/255.0f alpha:1.0f];
-        [UIView commitAnimations];
+        //[UIView commitAnimations];
     }
 }
 
 - (void)setHighlighted:(BOOL)highlighted animated:(BOOL)animated
 {
-    // Non Hightlight the cell when starting press the finger
-    
+    // Hightlight when hold the cell
+    if (highlighted == YES) {
+        self.myBackGroundView.backgroundColor = [UIColor colorWithRed:38.0f/255.0f green:239.0f/255.0f blue:239.0f/255.0f alpha:1.0f];
+    } else {
+        self.myBackGroundView.backgroundColor = [UIColor colorWithRed:239.0f/255.0f green:239.0f/255.0f blue:239.0f/255.0f alpha:1.0f];
+
+    }
     
 }
 

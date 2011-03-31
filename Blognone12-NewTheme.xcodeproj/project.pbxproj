@@ -27,6 +27,8 @@
 		3B3854F8133A0C05009E9C12 /* iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B3854F7133A0C05009E9C12 /* iPad.png */; };
 		3B530AAD13407FE400C98438 /* DetailNews.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B530AAB13407FE300C98438 /* DetailNews.m */; };
 		3B530AAE13407FE400C98438 /* DetailNews.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B530AAC13407FE400C98438 /* DetailNews.xib */; };
+		3B54387513432BA300B70CEC /* Arrow2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B54387413432BA300B70CEC /* Arrow2.png */; };
+		3B54393C1344675300B70CEC /* blognone4.html in Resources */ = {isa = PBXBuildFile; fileRef = 3B54390F1344675300B70CEC /* blognone4.html */; };
 		3B5D48381341CCFA00DDA1DA /* Flash2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B5D48371341CCFA00DDA1DA /* Flash2.jpg */; };
 		3B5D48B6134225CA00DDA1DA /* Nexus S.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3B5D48B5134225CA00DDA1DA /* Nexus S.jpeg */; };
 		3BC3609A1341C9320025FE46 /* myFastCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC360991341C9320025FE46 /* myFastCell.m */; };
@@ -34,7 +36,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3B3854BF1339FCE6009E9C12 /* Blognone12-NewTheme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blognone12-NewTheme.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B3854C31339FCE6009E9C12 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3B3854C51339FCE6009E9C12 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3B3854C71339FCE6009E9C12 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,6 +62,9 @@
 		3B530AAA13407FE300C98438 /* DetailNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailNews.h; sourceTree = "<group>"; };
 		3B530AAB13407FE300C98438 /* DetailNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailNews.m; sourceTree = "<group>"; };
 		3B530AAC13407FE400C98438 /* DetailNews.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailNews.xib; sourceTree = "<group>"; };
+		3B54381613431D3700B70CEC /* Blognone12-NewTheme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blognone12-NewTheme.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B54387413432BA300B70CEC /* Arrow2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arrow2.png; sourceTree = "<group>"; };
+		3B54390F1344675300B70CEC /* blognone4.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = blognone4.html; sourceTree = "<group>"; };
 		3B5D48371341CCFA00DDA1DA /* Flash2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Flash2.jpg; sourceTree = "<group>"; };
 		3B5D48B5134225CA00DDA1DA /* Nexus S.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nexus S.jpeg"; sourceTree = "<group>"; };
 		3BC360981341C9320025FE46 /* myFastCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myFastCell.h; sourceTree = "<group>"; };
@@ -95,7 +99,7 @@
 		3B3854C01339FCE6009E9C12 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3B3854BF1339FCE6009E9C12 /* Blognone12-NewTheme.app */,
+				3B54381613431D3700B70CEC /* Blognone12-NewTheme.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,6 +137,7 @@
 		3B3854CA1339FCE6009E9C12 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3B54390F1344675300B70CEC /* blognone4.html */,
 				3BC3609C1341C94E0025FE46 /* ABTableViewCell.h */,
 				3BC3609D1341C94E0025FE46 /* ABTableViewCell.m */,
 				3B3854EB1339FD5F009E9C12 /* Icon */,
@@ -165,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				3B3854E71339FD54009E9C12 /* Arrow.png */,
+				3B54387413432BA300B70CEC /* Arrow2.png */,
 				3B3854EC1339FD75009E9C12 /* digital-cameras-dslr-gray-sky-8578.jpeg */,
 			);
 			name = Images;
@@ -187,7 +193,7 @@
 			);
 			name = "Blognone12-NewTheme";
 			productName = "Blognone12-NewTheme";
-			productReference = 3B3854BF1339FCE6009E9C12 /* Blognone12-NewTheme.app */;
+			productReference = 3B54381613431D3700B70CEC /* Blognone12-NewTheme.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -234,6 +240,8 @@
 				3B530AAE13407FE400C98438 /* DetailNews.xib in Resources */,
 				3B5D48381341CCFA00DDA1DA /* Flash2.jpg in Resources */,
 				3B5D48B6134225CA00DDA1DA /* Nexus S.jpeg in Resources */,
+				3B54387513432BA300B70CEC /* Arrow2.png in Resources */,
+				3B54393C1344675300B70CEC /* blognone4.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

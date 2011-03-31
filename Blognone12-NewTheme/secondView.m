@@ -126,6 +126,12 @@
 //    }
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    self.navigationController.navigationBar.tintColor = [UIColor redColor];
+
+}
+
 - (void)viewDidUnload
 {
     [self setMytTableView:nil];
