@@ -9,6 +9,7 @@
 #import "secondView.h"
 #import <QuartzCore/QuartzCore.h>
 #import "DetailNews.h"
+#import "DetailNewsNative.h"
 
 @implementation secondView
 
@@ -222,8 +223,23 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    DetailNews *myDetailNews = [DetailNews new];
-    [self.navigationController pushViewController:myDetailNews animated:YES];
+    NSInteger indexOfContent = (indexPath.row - 1) / 2;
+    
+    BOOL isNativeDetailsView = YES;
+    if (isNativeDetailsView) {
+        DetailNewsNative *myDetailNewsNative = [DetailNewsNative new];
+        [self.navigationController pushViewController:myDetailNewsNative animated:YES];
+        myDetailNewsNative.TitleTextView.text = [[entries objectAtIndex:indexOfContent] objectForKey:@"title"];
+        
+        NSString *detailHtmlPath = [[NSBundle mainBundle] pathForResource:@"detail" ofType:@"html"];  
+        NSString *detailHtml = [NSString stringWithContentsOfFile:detailHtmlPath encoding:NSUTF8StringEncoding error:nil];
+        [myDetailNewsNative.textDetailWebView loadHTMLString:detailHtml baseURL:nil];
+    } else {
+        DetailNews *myDetailNews = [DetailNews new];
+        [self.navigationController pushViewController:myDetailNews animated:YES];
+    }
+    
+    
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
