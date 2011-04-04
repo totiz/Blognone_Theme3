@@ -40,6 +40,7 @@
 		3B5D48B6134225CA00DDA1DA /* Nexus S.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3B5D48B5134225CA00DDA1DA /* Nexus S.jpeg */; };
 		3BC3609A1341C9320025FE46 /* myFastCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC360991341C9320025FE46 /* myFastCell.m */; };
 		3BC3609E1341C94E0025FE46 /* ABTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC3609D1341C94E0025FE46 /* ABTableViewCell.m */; };
+		3BEFE0C11348E42B0026328E /* Aurum's picture.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3BEFE0C01348E42B0026328E /* Aurum's picture.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +87,7 @@
 		3BC360991341C9320025FE46 /* myFastCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myFastCell.m; sourceTree = "<group>"; };
 		3BC3609C1341C94E0025FE46 /* ABTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTableViewCell.h; sourceTree = "<group>"; };
 		3BC3609D1341C94E0025FE46 /* ABTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTableViewCell.m; sourceTree = "<group>"; };
+		3BEFE0C01348E42B0026328E /* Aurum's picture.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Aurum's picture.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +191,7 @@
 		3B3854EE1339FD9B009E9C12 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				3BEFE0C01348E42B0026328E /* Aurum's picture.jpeg */,
 				3B54394D13449EAC00B70CEC /* neizod's picture.jpeg */,
 				3B54394B13449CE500B70CEC /* comment_label.png */,
 				3B54394313446A9500B70CEC /* upBorder.png */,
@@ -271,6 +274,7 @@
 				3B54394A134498ED00B70CEC /* blognone_rev2.png in Resources */,
 				3B54394C13449CE500B70CEC /* comment_label.png in Resources */,
 				3B54394E13449EAC00B70CEC /* neizod's picture.jpeg in Resources */,
+				3BEFE0C11348E42B0026328E /* Aurum's picture.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
