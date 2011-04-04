@@ -38,6 +38,17 @@
 		3B54394E13449EAC00B70CEC /* neizod's picture.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3B54394D13449EAC00B70CEC /* neizod's picture.jpeg */; };
 		3B5D48381341CCFA00DDA1DA /* Flash2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B5D48371341CCFA00DDA1DA /* Flash2.jpg */; };
 		3B5D48B6134225CA00DDA1DA /* Nexus S.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3B5D48B5134225CA00DDA1DA /* Nexus S.jpeg */; };
+		3BA440C31349C5D200663CE9 /* CommentViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA440C21349C5D200663CE9 /* CommentViewCell.m */; };
+		3BA440C71349C64B00663CE9 /* DetailNewsNativeV2.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA440C51349C64B00663CE9 /* DetailNewsNativeV2.m */; };
+		3BA440C81349C64B00663CE9 /* DetailNewsNativeV2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BA440C61349C64B00663CE9 /* DetailNewsNativeV2.xib */; };
+		3BA440CA1349C77200663CE9 /* CommentViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BA440C91349C77200663CE9 /* CommentViewCell.xib */; };
+		3BA440D31349D7C200663CE9 /* sutjvc's picture.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3BA440CC1349D7C200663CE9 /* sutjvc's picture.jpeg */; };
+		3BA440D41349D7C200663CE9 /* Sephanov's picture.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3BA440CD1349D7C200663CE9 /* Sephanov's picture.jpeg */; };
+		3BA440D51349D7C200663CE9 /* hisoft's picture.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3BA440CE1349D7C200663CE9 /* hisoft's picture.jpeg */; };
+		3BA440D61349D7C200663CE9 /* chadowe's picture.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BA440CF1349D7C200663CE9 /* chadowe's picture.png */; };
+		3BA440D71349D7C200663CE9 /* lancaster's picture.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BA440D01349D7C200663CE9 /* lancaster's picture.png */; };
+		3BA440D81349D7C200663CE9 /* plyteam's picture.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3BA440D11349D7C200663CE9 /* plyteam's picture.gif */; };
+		3BA440D91349D7C200663CE9 /* Not Available at this Moment's picture.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3BA440D21349D7C200663CE9 /* Not Available at this Moment's picture.jpeg */; };
 		3BC3609A1341C9320025FE46 /* myFastCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC360991341C9320025FE46 /* myFastCell.m */; };
 		3BC3609E1341C94E0025FE46 /* ABTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC3609D1341C94E0025FE46 /* ABTableViewCell.m */; };
 		3BEFE0C11348E42B0026328E /* Aurum's picture.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3BEFE0C01348E42B0026328E /* Aurum's picture.jpeg */; };
@@ -83,6 +94,19 @@
 		3B54394D13449EAC00B70CEC /* neizod's picture.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "neizod's picture.jpeg"; sourceTree = "<group>"; };
 		3B5D48371341CCFA00DDA1DA /* Flash2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Flash2.jpg; sourceTree = "<group>"; };
 		3B5D48B5134225CA00DDA1DA /* Nexus S.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nexus S.jpeg"; sourceTree = "<group>"; };
+		3BA440C11349C5D200663CE9 /* CommentViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentViewCell.h; sourceTree = "<group>"; };
+		3BA440C21349C5D200663CE9 /* CommentViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentViewCell.m; sourceTree = "<group>"; };
+		3BA440C41349C64B00663CE9 /* DetailNewsNativeV2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailNewsNativeV2.h; sourceTree = "<group>"; };
+		3BA440C51349C64B00663CE9 /* DetailNewsNativeV2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailNewsNativeV2.m; sourceTree = "<group>"; };
+		3BA440C61349C64B00663CE9 /* DetailNewsNativeV2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailNewsNativeV2.xib; sourceTree = "<group>"; };
+		3BA440C91349C77200663CE9 /* CommentViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommentViewCell.xib; sourceTree = "<group>"; };
+		3BA440CC1349D7C200663CE9 /* sutjvc's picture.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sutjvc's picture.jpeg"; sourceTree = "<group>"; };
+		3BA440CD1349D7C200663CE9 /* Sephanov's picture.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sephanov's picture.jpeg"; sourceTree = "<group>"; };
+		3BA440CE1349D7C200663CE9 /* hisoft's picture.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hisoft's picture.jpeg"; sourceTree = "<group>"; };
+		3BA440CF1349D7C200663CE9 /* chadowe's picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chadowe's picture.png"; sourceTree = "<group>"; };
+		3BA440D01349D7C200663CE9 /* lancaster's picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lancaster's picture.png"; sourceTree = "<group>"; };
+		3BA440D11349D7C200663CE9 /* plyteam's picture.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "plyteam's picture.gif"; sourceTree = "<group>"; };
+		3BA440D21349D7C200663CE9 /* Not Available at this Moment's picture.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Not Available at this Moment's picture.jpeg"; sourceTree = "<group>"; };
 		3BC360981341C9320025FE46 /* myFastCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myFastCell.h; sourceTree = "<group>"; };
 		3BC360991341C9320025FE46 /* myFastCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myFastCell.m; sourceTree = "<group>"; };
 		3BC3609C1341C94E0025FE46 /* ABTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTableViewCell.h; sourceTree = "<group>"; };
@@ -150,6 +174,12 @@
 				3B54393E1344694300B70CEC /* DetailNewsNative.h */,
 				3B54393F1344694300B70CEC /* DetailNewsNative.m */,
 				3B5439401344694300B70CEC /* DetailNewsNative.xib */,
+				3BA440C41349C64B00663CE9 /* DetailNewsNativeV2.h */,
+				3BA440C51349C64B00663CE9 /* DetailNewsNativeV2.m */,
+				3BA440C61349C64B00663CE9 /* DetailNewsNativeV2.xib */,
+				3BA440C11349C5D200663CE9 /* CommentViewCell.h */,
+				3BA440C21349C5D200663CE9 /* CommentViewCell.m */,
+				3BA440C91349C77200663CE9 /* CommentViewCell.xib */,
 				3B3854CA1339FCE6009E9C12 /* Supporting Files */,
 			);
 			path = "Blognone12-NewTheme";
@@ -191,6 +221,7 @@
 		3B3854EE1339FD9B009E9C12 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				3BA440CB1349D7A600663CE9 /* Avatar */,
 				3BEFE0C01348E42B0026328E /* Aurum's picture.jpeg */,
 				3B54394D13449EAC00B70CEC /* neizod's picture.jpeg */,
 				3B54394B13449CE500B70CEC /* comment_label.png */,
@@ -200,6 +231,20 @@
 				3B3854EC1339FD75009E9C12 /* digital-cameras-dslr-gray-sky-8578.jpeg */,
 			);
 			name = Images;
+			sourceTree = "<group>";
+		};
+		3BA440CB1349D7A600663CE9 /* Avatar */ = {
+			isa = PBXGroup;
+			children = (
+				3BA440CC1349D7C200663CE9 /* sutjvc's picture.jpeg */,
+				3BA440CD1349D7C200663CE9 /* Sephanov's picture.jpeg */,
+				3BA440CE1349D7C200663CE9 /* hisoft's picture.jpeg */,
+				3BA440CF1349D7C200663CE9 /* chadowe's picture.png */,
+				3BA440D01349D7C200663CE9 /* lancaster's picture.png */,
+				3BA440D11349D7C200663CE9 /* plyteam's picture.gif */,
+				3BA440D21349D7C200663CE9 /* Not Available at this Moment's picture.jpeg */,
+			);
+			name = Avatar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +320,15 @@
 				3B54394C13449CE500B70CEC /* comment_label.png in Resources */,
 				3B54394E13449EAC00B70CEC /* neizod's picture.jpeg in Resources */,
 				3BEFE0C11348E42B0026328E /* Aurum's picture.jpeg in Resources */,
+				3BA440C81349C64B00663CE9 /* DetailNewsNativeV2.xib in Resources */,
+				3BA440CA1349C77200663CE9 /* CommentViewCell.xib in Resources */,
+				3BA440D31349D7C200663CE9 /* sutjvc's picture.jpeg in Resources */,
+				3BA440D41349D7C200663CE9 /* Sephanov's picture.jpeg in Resources */,
+				3BA440D51349D7C200663CE9 /* hisoft's picture.jpeg in Resources */,
+				3BA440D61349D7C200663CE9 /* chadowe's picture.png in Resources */,
+				3BA440D71349D7C200663CE9 /* lancaster's picture.png in Resources */,
+				3BA440D81349D7C200663CE9 /* plyteam's picture.gif in Resources */,
+				3BA440D91349D7C200663CE9 /* Not Available at this Moment's picture.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +347,8 @@
 				3BC3609A1341C9320025FE46 /* myFastCell.m in Sources */,
 				3BC3609E1341C94E0025FE46 /* ABTableViewCell.m in Sources */,
 				3B5439411344694300B70CEC /* DetailNewsNative.m in Sources */,
+				3BA440C31349C5D200663CE9 /* CommentViewCell.m in Sources */,
+				3BA440C71349C64B00663CE9 /* DetailNewsNativeV2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

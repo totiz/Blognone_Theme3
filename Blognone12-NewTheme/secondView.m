@@ -9,7 +9,7 @@
 #import "secondView.h"
 #import <QuartzCore/QuartzCore.h>
 #import "DetailNews.h"
-#import "DetailNewsNative.h"
+#import "DetailNewsNativeV2.h"
 
 @implementation secondView
 
@@ -227,13 +227,13 @@
     
     BOOL isNativeDetailsView = YES;
     if (isNativeDetailsView) {
-        DetailNewsNative *myDetailNewsNative = [DetailNewsNative new];
+        DetailNewsNativeV2 *myDetailNewsNative = [DetailNewsNativeV2 new];
         [self.navigationController pushViewController:myDetailNewsNative animated:YES];
-        myDetailNewsNative.TitleTextView.text = [[entries objectAtIndex:indexOfContent] objectForKey:@"title"];
+        //myDetailNewsNative.TitleTextView.text = [[entries objectAtIndex:indexOfContent] objectForKey:@"title"];
         
         NSString *detailHtmlPath = [[NSBundle mainBundle] pathForResource:@"detail" ofType:@"html"];  
         NSString *detailHtml = [NSString stringWithContentsOfFile:detailHtmlPath encoding:NSUTF8StringEncoding error:nil];
-        [myDetailNewsNative.textDetailWebView loadHTMLString:detailHtml baseURL:nil];
+        //[myDetailNewsNative.textDetailWebView loadHTMLString:detailHtml baseURL:nil];
     } else {
         DetailNews *myDetailNews = [DetailNews new];
         [self.navigationController pushViewController:myDetailNews animated:YES];
